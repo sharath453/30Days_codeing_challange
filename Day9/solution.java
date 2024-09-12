@@ -9,13 +9,13 @@ import java.util.regex.*;
 class Result {
 
     public static int factorial(int n) {
-        
-    int result=1;
+
+    int value=1;
     for(int i=1;i<=n;i++)
     {
-        result=result*i;
+        value=value*i;
     }
-    return result;
+    return value;
 
     }
 
