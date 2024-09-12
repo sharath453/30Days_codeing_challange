@@ -8,14 +8,21 @@ import java.util.regex.*;
 
 class Result {
 
+    /*
+     * Complete the 'factorial' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts INTEGER n as parameter.
+     */
+
     public static int factorial(int n) {
     // Write your code here
-    int results=1;
-    for(int m=1;m<=n;m++)
+    int result=1;
+    for(int i=1;i<=n;i++)
     {
-        results=results*m;
+        result=result*i;
     }
-    return results;
+    return result;
 
     }
 
