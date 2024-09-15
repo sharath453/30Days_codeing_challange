@@ -42,7 +42,6 @@ Student(String firstName, String lastName, int id, int[] scores) {
         }
         double average = sum / (double) testScores.length;
 
-        // Determine the grade based on the average
         if (average >= 90) {
             return 'O'; 
         } else if (average >= 80) {
