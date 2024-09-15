@@ -27,6 +27,7 @@ public class Solution {
         // Iterate through possible top-left corners of hourglasses
         for (int i = 0; i < 4; i++) { // Row index for hourglass top
             for (int j = 0; j < 4; j++) { // Column index for hourglass top
+               
                 // Calculate the sum of the hourglass centered at (i, j)
                 int currentSum = 
                     arr.get(i).get(j) + arr.get(i).get(j + 1) + arr.get(i).get(j + 2) +
@@ -39,8 +40,7 @@ public class Solution {
                 }
             }
         }
-
-        // Print the result
+        
         System.out.println(maxSum);
     }
 }
