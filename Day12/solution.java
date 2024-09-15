@@ -54,7 +54,7 @@ Student(String firstName, String lastName, int id, int[] scores) {
         } else if (average >= 40) {
             return 'D';  // Fail
         } else {
-            return 'T';  // Trolled (custom grade, not part of the standard grading scheme)
+            return 'T';  
         }
     }
 }
