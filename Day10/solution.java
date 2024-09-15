@@ -22,21 +22,21 @@ public class Solution {
             value++;
         }
         
-        int mincount=0;
+        int currentcount=0;
         int maxcount=0;
         for(int i=0;i<arr.length;i++)
         {
            if(arr[i]==1)
            {
-            mincount++;
-              if(mincount>maxcount)
+              currentcount++;
+              if(currentcount>maxcount)
               {
-                  maxcount=mincount;
+                  maxcount=currentcount;
               } 
            }
               else
               {
-                mincount=0;
+                  currentcount=0;
               }
         }
         System.out.println(maxcount);
