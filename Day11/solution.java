@@ -40,7 +40,8 @@ public class Solution {
                 }
             }
         }
-        
+
+        // Print the result
         System.out.println(maxSum);
     }
 }
