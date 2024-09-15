@@ -30,10 +30,7 @@ Student(String firstName, String lastName, int id, int[] scores) {
         this.testScores = scores;  // Initialize Student's testScores
     }
 
-    /*  
-    *   Method Name: calculate
-    *   @return A character denoting the grade.
-    */
+
     char calculate() {
        
         int sum = 0;
