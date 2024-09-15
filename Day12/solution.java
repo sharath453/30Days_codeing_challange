@@ -48,7 +48,7 @@ Student(String firstName, String lastName, int id, int[] scores) {
         } else if (average >= 80) {
             return 'E';  // Excellent
         } else if (average >= 70) {
-            return 'A';  // Average
+            return 'A';  
         } else if (average >= 55) {
             return 'P';
         } else if (average >= 40) {
