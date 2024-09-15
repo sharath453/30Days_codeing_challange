@@ -35,7 +35,7 @@ Student(String firstName, String lastName, int id, int[] scores) {
     *   @return A character denoting the grade.
     */
     char calculate() {
-        // Calculate the average score
+       
         int sum = 0;
         for (int score : testScores) {
             sum += score;
