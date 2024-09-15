@@ -52,7 +52,7 @@ Student(String firstName, String lastName, int id, int[] scores) {
         } else if (average >= 55) {
             return 'P';  // Pass
         } else if (average >= 40) {
-            return 'D';  // Fail
+            return 'D';
         } else {
             return 'T';  
         }
