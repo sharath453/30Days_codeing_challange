@@ -17,19 +17,19 @@ class Difference {
       void computeDifference()
       {
           int min=elements[0];
-          int max=elements[0];
+          int max1=elements[0];
           for(int i=0;i<elements.length;i++)
           {
               if(elements[i]<min)
               {
                   min=elements[i];
               }
-              if(elements[i]>max)
+              if(elements[i]>max1)
               {
-                  max=elements[i];
+                  max1=elements[i];
               }
           }
-          maximumDifference=max-min;
+          maximumDifference=max1-min;
       }
 } 
 
