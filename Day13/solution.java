@@ -20,6 +20,7 @@ class MyBook extends Book{
         super(title, author);
         this.price=price;
     }
+    
     void display()
     {
         System.out.println("Title: "+title);
