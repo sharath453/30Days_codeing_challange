@@ -31,8 +31,6 @@ class Difference {
           }
           maximumDifference=max-min;
       }
-     
-
 } 
 
 public class Solution {
