@@ -7,7 +7,7 @@ import java.util.regex.*;
 
 class Difference {
   	private int[] elements;
-  	public int maximumDifference;
+  	public int maximumDifference1;
       
       Difference(int[] elements)
       {
@@ -29,7 +29,7 @@ class Difference {
                   max=elements[i];
               }
           }
-          maximumDifference=max-min;
+          maximumDifference1=max-min;
       }
 } 
 
