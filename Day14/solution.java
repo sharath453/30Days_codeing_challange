@@ -29,7 +29,7 @@ class Difference {
                   max1=elements[i];
               }
           }
-          maximumDifference=max-min;
+          maximumDifference=max1-min;
       }
 } 
 
