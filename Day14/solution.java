@@ -26,7 +26,7 @@ class Difference {
               }
               if(elements[i]>max1)
               {
-                  max=elements[i];
+                  max1=elements[i];
               }
           }
           maximumDifference=max-min;
