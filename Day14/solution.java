@@ -22,7 +22,7 @@ class Difference {
           {
               if(elements[i]<min1)
               {
-                  min1=elements[i];
+                  min=elements[i];
               }
               if(elements[i]>max)
               {
