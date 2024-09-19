@@ -2,6 +2,7 @@ import java.util.*;
 import java.io.*;
 
 class Calculator{
+    
     public int power(int n,int p)throws Exception{
         if(n<0|| p<0)
         {
