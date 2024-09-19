@@ -21,7 +21,8 @@ class Solution {
         {
             head=newnode;
         }
-        else{
+        else
+        {
             Node current=head;
             while(current.next!=null)
             {
