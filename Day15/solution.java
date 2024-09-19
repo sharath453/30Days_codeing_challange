@@ -30,6 +30,7 @@ class Solution {
             }
             current.next=newnode;
         }
+        
         return head;    
     }
 
