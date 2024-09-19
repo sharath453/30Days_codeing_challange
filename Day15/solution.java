@@ -15,6 +15,7 @@ class Solution {
     public static  Node insert(Node head,int data) {
         
         Node newnode=new Node(data);
+        
         if(head==null)
         {
             head=newnode;
