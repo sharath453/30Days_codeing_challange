@@ -24,6 +24,7 @@ public class Solution {
         {
            System.out.println("Bad String"); 
         }
+        
         bufferedReader.close();
     }
 }
