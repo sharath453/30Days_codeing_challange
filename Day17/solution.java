@@ -34,6 +34,7 @@ class Solution{
                 System.out.println(e.getMessage());
             }
         }
+        
         in.close();
     }
 }
