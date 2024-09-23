@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Printer <T> {
 public static <T> void printArray(T[] array) {
         for (T element : array) {
