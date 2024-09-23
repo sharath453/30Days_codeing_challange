@@ -38,6 +38,7 @@ public class Solution {
         break;
     }
 }
+
         System.out.println("Array is sorted in " + numberOfSwaps + " swaps.");
         System.out.println("First Element: " + a.get(0));
         System.out.println("Last Element: " + a.get(a.size() - 1));
