@@ -9,7 +9,8 @@ public static <T> void printArray(T[] array)
     } 
 }
 
-public class Generics {   
+public class Generics 
+{   
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
