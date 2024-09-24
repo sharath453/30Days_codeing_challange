@@ -28,7 +28,8 @@ public class Generics {
         Printer<String> stringPrinter = new Printer<String>();
         intPrinter.printArray( intArray  );
         stringPrinter.printArray( stringArray );
-        if(Printer.class.getDeclaredMethods().length > 1){
+        if(Printer.class.getDeclaredMethods().length > 1)
+        {
             System.out.println("The Printer class should only have 1 method named printArray.");
         }
     } 
