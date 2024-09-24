@@ -12,7 +12,8 @@ public class Generics {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         Integer[] intArray = new Integer[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+        {
             intArray[i] = scanner.nextInt();
         }
 
