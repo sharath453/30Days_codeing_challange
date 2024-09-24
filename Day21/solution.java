@@ -19,7 +19,8 @@ public class Generics {
 
         n = scanner.nextInt();
         String[] stringArray = new String[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             stringArray[i] = scanner.next();
         }
         
