@@ -5,7 +5,6 @@ public static <T> void printArray(T[] array) {
             System.out.println(element);
         }
     }
-
 }
 
 public class Generics {   
