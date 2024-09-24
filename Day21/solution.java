@@ -36,4 +36,5 @@ public class Generics
             System.out.println("The Printer class should only have 1 method named printArray.");
         }
     } 
+    
 }
