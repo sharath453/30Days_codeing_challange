@@ -14,7 +14,6 @@ class Calculator{
         return result;
     }
 }
-
 class Solution{
 
     public static void main(String[] args) {
